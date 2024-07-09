@@ -1,0 +1,144 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 8, Errors: 0, Skipped: 17, Time elapsed: 18.199 s <<< FAILURE! - in TestSuite
+setup(tests.HomePageTest)  Time elapsed: 10.069 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-994P8DU', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x003EA813+48355]
+	(No symbol) [0x0037C4B1]
+	(No symbol) [0x00285358]
+	(No symbol) [0x002A61AC]
+	(No symbol) [0x002A1EF3]
+	(No symbol) [0x002A0579]
+	(No symbol) [0x002D0C55]
+	(No symbol) [0x002D093C]
+	(No symbol) [0x002CA536]
+	(No symbol) [0x002A82DC]
+	(No symbol) [0x002A93DD]
+	GetHandleVerifier [0x0064AABD+2539405]
+	GetHandleVerifier [0x0068A78F+2800735]
+	GetHandleVerifier [0x0068456C+2775612]
+	GetHandleVerifier [0x004751E0+616112]
+	(No symbol) [0x00385F8C]
+	(No symbol) [0x00382328]
+	(No symbol) [0x0038240B]
+	(No symbol) [0x00374FF7]
+	BaseThreadInitThunk [0x7640FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773080CE+286]
+	RtlGetAppContainerNamedObjectPath [0x7730809E+238]
+
+
+tearDown(tests.HomePageTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setup(tests.LoginPageTest)  Time elapsed: 3.436 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-994P8DU', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x003EA813+48355]
+	(No symbol) [0x0037C4B1]
+	(No symbol) [0x00285358]
+	(No symbol) [0x002A61AC]
+	(No symbol) [0x002A1EF3]
+	(No symbol) [0x002A0579]
+	(No symbol) [0x002D0C55]
+	(No symbol) [0x002D093C]
+	(No symbol) [0x002CA536]
+	(No symbol) [0x002A82DC]
+	(No symbol) [0x002A93DD]
+	GetHandleVerifier [0x0064AABD+2539405]
+	GetHandleVerifier [0x0068A78F+2800735]
+	GetHandleVerifier [0x0068456C+2775612]
+	GetHandleVerifier [0x004751E0+616112]
+	(No symbol) [0x00385F8C]
+	(No symbol) [0x00382328]
+	(No symbol) [0x0038240B]
+	(No symbol) [0x00374FF7]
+	BaseThreadInitThunk [0x7640FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773080CE+286]
+	RtlGetAppContainerNamedObjectPath [0x7730809E+238]
+
+
+tearDown(tests.LoginPageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setup(tests.ForumsPageTest)  Time elapsed: 1.969 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-994P8DU', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x003EA813+48355]
+	(No symbol) [0x0037C4B1]
+	(No symbol) [0x00285358]
+	(No symbol) [0x002A61AC]
+	(No symbol) [0x002A1EF3]
+	(No symbol) [0x002A0579]
+	(No symbol) [0x002D0C55]
+	(No symbol) [0x002D093C]
+	(No symbol) [0x002CA536]
+	(No symbol) [0x002A82DC]
+	(No symbol) [0x002A93DD]
+	GetHandleVerifier [0x0064AABD+2539405]
+	GetHandleVerifier [0x0068A78F+2800735]
+	GetHandleVerifier [0x0068456C+2775612]
+	GetHandleVerifier [0x004751E0+616112]
+	(No symbol) [0x00385F8C]
+	(No symbol) [0x00382328]
+	(No symbol) [0x0038240B]
+	(No symbol) [0x00374FF7]
+	BaseThreadInitThunk [0x7640FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773080CE+286]
+	RtlGetAppContainerNamedObjectPath [0x7730809E+238]
+
+
+tearDown(tests.ForumsPageTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+
+setup(tests.CheckoutTest)  Time elapsed: 1.899 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 126.0.6478.127 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-994P8DU', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x003EA813+48355]
+	(No symbol) [0x0037C4B1]
+	(No symbol) [0x00285358]
+	(No symbol) [0x002A61AC]
+	(No symbol) [0x002A1EF3]
+	(No symbol) [0x002A0579]
+	(No symbol) [0x002D0C55]
+	(No symbol) [0x002D093C]
+	(No symbol) [0x002CA536]
+	(No symbol) [0x002A82DC]
+	(No symbol) [0x002A93DD]
+	GetHandleVerifier [0x0064AABD+2539405]
+	GetHandleVerifier [0x0068A78F+2800735]
+	GetHandleVerifier [0x0068456C+2775612]
+	GetHandleVerifier [0x004751E0+616112]
+	(No symbol) [0x00385F8C]
+	(No symbol) [0x00382328]
+	(No symbol) [0x0038240B]
+	(No symbol) [0x00374FF7]
+	BaseThreadInitThunk [0x7640FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773080CE+286]
+	RtlGetAppContainerNamedObjectPath [0x7730809E+238]
+
+
+tearDown(tests.CheckoutTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
